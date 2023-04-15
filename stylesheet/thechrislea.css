@@ -10,6 +10,7 @@
 
 body {
 	height: 100vh;
+	overflow: hidden;
 }
 
 header {
@@ -21,7 +22,6 @@ header {
 
 main {
 	height: 100vh;
-	
 }
 
 footer {
@@ -80,10 +80,6 @@ h3 {
 	padding-bottom: 20px;
 }
 
-img {
-	display: block;
-}
-
 #Socials_Section>a>img {
 	width: 100%;
 	height: auto;
@@ -134,6 +130,7 @@ footer>p {
 
 #background {
     height: 100vh;
+	overflow: none;
     position: absolute;
     top: 0px;
 	left: 0px;
