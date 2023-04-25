@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /contact.html
+
+User-agent: EmailCollector
+Disallow: /c
+
+User-agent: EmailSiphon
+Disallow: /
+
+Disallow: /
+feUser-agent: EmailWolf

@@ -23,7 +23,9 @@ main {
 	height: 100%;
 }
 
-
+img {
+	
+}
 
 
 a {
@@ -57,7 +59,7 @@ h1, h2 {
 }
 
 h1 {
-	font-size: 15vw;
+	font-size: 13vw;
 }
 
 h2 {
@@ -75,15 +77,6 @@ h3 {
 	background-color: none;
 }
 
-/*
-.SocialLogo>img {
-	width: 400px;
-	height: auto;
-	margin-top: 2%;
-	margin-bottom: 1%;
-	margin-left: 1%;
-	margin-right: 1%;
-} */
 
 p {
 	font-weight: 800;
@@ -93,6 +86,8 @@ p {
 
 #abouttext>p {
 	font-size: calc(12px + 0.5vw);
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 
@@ -110,10 +105,14 @@ p {
 #abouttext {
 	width: 100%;
 	text-align: center;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
 }
 
 #background {
-    height: 100vh;
+    min-height: 100vh;
+	min-width: 100vw;
+	display: cover;
 	overflow: none;
     position: absolute;
     top: 0px;
@@ -142,7 +141,6 @@ p {
 
 
 .BackPad {
-	padding: 15px;
 	border-radius: 10px;
 	background-color: rgba(101,137,150,0.7);
 }
